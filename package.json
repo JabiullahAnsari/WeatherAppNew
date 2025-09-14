@@ -1,9 +1,12 @@
 {
+  "homepage": "https://jabiullahansari.github.io/WeatherAppNew",
   "name": "React-weather-app",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "vite",
+    " predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "vite build",
     "preview": "vite preview"
   },
