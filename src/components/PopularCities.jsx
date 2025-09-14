@@ -23,7 +23,7 @@ const cities = [
 export default function PopularCities({ onSelectCity }) {
   return (
     <section className="popular-cities">
-      <h2>🌟 Popular Cities</h2>
+      <h2 className="popular-heading">🌟 Popular Cities</h2>
       <div className="city-grid">
         {cities.map((c) => (
           <button
